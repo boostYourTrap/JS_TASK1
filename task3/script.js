@@ -21,5 +21,12 @@ function handler(e) {
         trafficLight2.style.backgroundColor = 'yellow'
     }else if(e.target === trafficLight3){
         trafficLight3.style.backgroundColor = 'red'
+        setTimeout(() => {
+            alert('ПЕШЕХОД ОСТАНОВИСЬ !!!');
+        }, 300)  //добавил функцию setTimeoute иначе Alert срабатывал до переключения света
     }
+
+    // if(e.target === trafficLight3) {
+    //     alert('Пешеход остановись !!!')
+    // }
 }

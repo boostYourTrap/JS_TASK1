@@ -1,5 +1,50 @@
 body {
     font-size: 30px;
-    background-color: red;
+    background-color: rgb(226, 130, 130);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
+p{
+    width: 400px;
+    text-align: left;
+    
+}
+
+code {
+    width: 400px;
+    text-align: left;
+
+}
+
+p, code {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+a {
+    text-align: left;
+    display: block;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px !important;
+    color:  rgb(65, 6, 120);
+}
+
+a:hover {
+    color: rgb(32, 0, 61);
+}
+
+
+p:nth-child(even),
+code:nth-child(even) {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
