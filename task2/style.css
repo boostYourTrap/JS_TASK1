@@ -1,6 +1,6 @@
 body {
     font-size: 30px;
-    background-color: rgb(226, 130, 130);
+    background-color: rgb(230, 184, 184);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -34,11 +34,14 @@ a {
     margin-left: 50px;
     margin-top: 20px;
     font-size: 25px !important;
-    color:  rgb(65, 6, 120);
+    color:  blue;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(32, 0, 61);
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 
 

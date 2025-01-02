@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: aquamarine;
+    background-color: #e6f7ff;
 }
 
 .styled-form input {
@@ -34,8 +34,6 @@ body {
 
 .styled-form button {
     height: 50px;
-    /* width: 400px; */
-    /* border: 1px solid red; */
     box-sizing: border-box;
     border-radius: 10px;
     font-size: 15px;
@@ -47,7 +45,15 @@ body {
 }
 
 .styled-form button:hover {
-    background-color: red;
+    background-color:  #ff6f61;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.5s ease; 
 }
 
 p {
@@ -67,5 +73,6 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(26, 120, 88);
-    font-size: 35px;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
